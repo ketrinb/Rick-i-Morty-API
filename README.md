@@ -1,0 +1,1 @@
+# Rick-i-Morty-API
