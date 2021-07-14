@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+body
+  {
+    margin: 0 px;
+    padding: 0px;
+    color: #232323;
+    font-family: "Avenir Next", "Avenir", sans-serif;
+    font-style: normal;
+   font-weight: 200;
+    background-color: lightgreen;
+  }
+
+h1{
+  text-align: center;
+    }
+h3{
+  padding-left:20px;
+}
+h2{
+  text-align:left;
+}
+.nav{
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+span{
+  color: green;
+}
+main{
+  color: white;
+  background-color: black;
+   .characters{
+     display: flex;
+     flex-wrap: wrap;
+    .card{
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 3rem;
+    }
+  }
+  
+ 
+}
+
