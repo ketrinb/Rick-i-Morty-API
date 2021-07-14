@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Rick and Morty App</title>
+    <script src='app.js' defer></script>
+  </style>
+  <link rel="stylesheet" href="./styles.css"/>
+
+  </head>
+   <body>
+    <header>
+    <p>Search</p> <input onChange={(e)}=>{
+setSearch(e.target.value)
+}
+value={search}
+type=”text”/>
+        <div class="nav-item">  
+    <h1>Welcome to our Rick and Morty API</h1>
+     <h3>Here some characters</h3>
+    </div>
+    </header>
+    <main>
+     <div id="card-container" className="characters" >
+       <article key={index}  className="card">   
+      </div>
+    </main>    
+  </body>   
+</html>
